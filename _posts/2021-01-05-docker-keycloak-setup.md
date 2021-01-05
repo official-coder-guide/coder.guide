@@ -97,3 +97,14 @@ b. Click enable
 
 10. go back to `your_ip:9995/auth/admin/master/console/#/realms/master/smtp-settings` and click test connection
 you should recieve an email in the junk folder of the email you set for admin.
+
+## Alternate secured email setup
+
+Change host to smtp.gmail.com
+Change Port to 587
+
+create a new password here https://security.google.com/settings/security/apppasswords
+
+replace the password on the keycloak dashboard with thte new app specific password
+
+Hit test connection
